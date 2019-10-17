@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  content: MyString
+  description: MyString
+  title: MyString
+  length: MyString
+  uploader: MyString
+
+two:
+  content: MyString
+  description: MyString
+  title: MyString
+  length: MyString
+  uploader: MyString
