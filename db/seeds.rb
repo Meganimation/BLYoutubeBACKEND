@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+testUser = User.create(name: 'Test User')
+
+testVideo = Video.create(genre: 'Tech', description: 'A video class instance which I am using for testing', title: 'The Test Video', length: 2.33, uploader: 'Megan')
+
+testComment = Comment.create(content: 'Test Comment', user: testUser, video: testVideo)
+
+
